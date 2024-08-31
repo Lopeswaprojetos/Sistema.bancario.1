@@ -21,32 +21,42 @@ O **Sistema Bancário Atualizado** é um projeto desenvolvido em Python utilizan
 Siga os passos abaixo para configurar e executar o projeto localmente.
 
 1. **Clone o Repositório**
-   git clone https://github.com/seu-usuario/sistema-bancario-atualizado.git
+   git clone [https://github.com/seu-usuario/sistema-bancario-atualizado.git](https://github.com/Lopeswaprojetos/Sistema.bancario.1.git)
+
    cd sistema-bancario-atualizado
 
 2. **Crie um Ambiente Virtual (opcional, mas recomendado)**
+   
 python -m venv venv
 source venv/bin/activate  # No Windows: venv\Scripts\activate
 
-3. **Instale as Dependências**
+4. **Instale as Dependências**
 pip install -r requirements.txt
 
-4. **Execute o Projeto**
+5. **Execute o Projeto**
 python app.py
 
 ## Estrutura do Projeto
+
 app.py: Arquivo principal que contém a lógica do servidor Flask.
+
 templates/: Contém os arquivos HTML para as páginas do aplicativo.
+
 static/: Contém arquivos estáticos como CSS e JavaScript.
+
 requirements.txt: Lista de dependências do projeto.
 
 ## Contribuição
 Se você deseja contribuir com melhorias ou correções, siga estas etapas:
 
 Faça um fork do repositório.
+
 Crie uma nova branch (git checkout -b minha-nova-feature).
+
 Faça as alterações necessárias e comite (git commit -am 'Adiciona nova feature').
+
 Envie a branch para o repositório remoto (git push origin minha-nova-feature).
+
 Abra um pull request no GitHub.
 
 ## Licença
